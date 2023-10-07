@@ -11,7 +11,12 @@ env:
   PROJECT_NAME: SomethingNeedDoing
 
 jobs:
+  lint:
+    uses: ./.github/workflows/lint.yml
+    secrets: inherit
+
   build:
+    needs: [lint]
     runs-on: windows-latest
     steps:
       - name: Checkout
