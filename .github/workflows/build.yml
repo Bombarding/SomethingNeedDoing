@@ -7,7 +7,7 @@ on:
       - '*'
 
 env:
-  PLUGIN_REPO: WorkingRobot/MyDalamudPlugins
+  PLUGIN_REPO: Bombarding/DalamudPlugins
   PROJECT_NAME: SomethingNeedDoing
 
 jobs:
