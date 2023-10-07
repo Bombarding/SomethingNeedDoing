@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Authors>Asriel Camora</Authors>
-    <Version>1.5.0.0</Version>
-    <PackageProjectUrl>https://github.com/WorkingRobot/SomethingNeedDoing.git</PackageProjectUrl>
+    <Authors>Asriel Camora, Bombarding</Authors>
+    <Version>1.5.0.1</Version>
+    <PackageProjectUrl>https://github.com/Bombarding/SomethingNeedDoing.git</PackageProjectUrl>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -26,7 +26,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="..\res\icon.png" Link="images\icon.png" CopyToOutputDirectory="PreserveNewest" Visible="false" />
+    <Content Include="..\res\new_icon.png" Link="images\new_icon.png" CopyToOutputDirectory="PreserveNewest" Visible="false" />
   </ItemGroup>
 
   <PropertyGroup>
