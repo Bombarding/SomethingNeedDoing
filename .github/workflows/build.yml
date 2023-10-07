@@ -27,9 +27,6 @@ jobs:
           Invoke-WebRequest -Uri https://goatcorp.github.io/dalamud-distrib/stg/latest.zip -OutFile latest.zip
           Expand-Archive -Force latest.zip "$env:AppData\XIVLauncher\addon\Hooks\dev\"
 
-      - name: Lint
-        uses: ./.github/workflows/lint.yml
-
       - name: Build
         run: |
           dotnet restore -r win ${{env.PROJECT_NAME}}.sln
