@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Authors>Asriel Camora, Bombarding</Authors>
-    <Version>1.5.0.6</Version>
+    <Authors>WorkingRobot, Bombarding</Authors>
+    <Version>1.5.0.7</Version>
     <PackageProjectUrl>https://github.com/Bombarding/SomethingNeedDoing.git</PackageProjectUrl>
   </PropertyGroup>
 
